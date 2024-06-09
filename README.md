@@ -31,7 +31,3 @@ Now Deploy
 
  <a href="https://github.com/Itxxwasi"><img src="https://github.com/Itxxwasi.png" width="250" height="250" alt="Itxx Me Wasi"/></a>
 
-# `Contributor` 
-<a href="https://github.com/Giftedmaurice"><img src="https://github.com/Giftedmaurice.png" width="250" height="250" alt="Gifted Tech"/></a>
-
-   
