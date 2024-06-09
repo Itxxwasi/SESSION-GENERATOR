@@ -24,7 +24,7 @@ FORK THE REPOSITORY (Repo)
 
 Now Deploy
     <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/wasixd/PAIR-QR-WASI-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Itxxwasi/SESSION-GENERATOR' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
 
 [`HERE'S AN EXAMPLE OUTPUT`](https://wasi-session-test-2d5de70f8522.herokuapp.com)
 # `Owner`
