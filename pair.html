@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pair Code</title>
+  <title>Pair with Me</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
@@ -12,7 +13,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background: black;
+      background: linear-gradient(to bottom, green, yellow);
       font-family: Arial, sans-serif;
     }
 
@@ -28,72 +29,72 @@
       padding: 20px;
       position: relative;
       text-align: center;
-      background-color: rgb(0, 0, 0);
+      background-color: white;
       border-radius: 10px;
       transform: perspective(1000px) rotateY(0deg);
-      box-shadow: 0 0 20px rgba(250, 249, 249, 0.7);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
       position: relative;
     }
 
     #text {
-      color: #f6f5f5;
+      color: #000; /* Set the text color to black (#000) */
     }
 
     .input-container input {
-      color: #f1eaea;
+      color: #000; /* Set the text color to black (#000) */
     }
 
     .centered-text {
-      color: #e9e4e4;
+      color: #000; /* Set the text color to black (#000) */
     }
 
     .input-container {
       display: flex;
-      background: rgb(10, 10, 10);
-      border-radius: 1rem;
       background: black;
-      box-shadow: black;
+      border-radius: 1rem;
+      background: linear-gradient(45deg, white 0%, blue 100%);
+      box-shadow: 20px 20px 20px white, -10px -10px 20px white;
       padding: 0.3rem;
       gap: 0.3rem;
-      max-width: 300px;
+      max-width: 300px; /* Set your desired maximum width */
       width: 100%;
     }
 
     .input-container input {
       border-radius: 0.8rem 0 0 0.8rem;
-      background: #e8e8e8;
-      box-shadow: inset 13px 13px 10px #dcdcdc, inset -13px -13px 10px #f4f4f4;
+      background: white;
+      box-shadow: inset 13px 13px 10px white, inset -13px -13px 10px white;
       width: 100%;
       flex-basis: 75%;
       padding: 1rem;
       border: none;
-      border-left: 2px solid #ecf2f8;
-      color: #000000;
+      border-left: 2px solid purple;
+      color: #5e5e5e;
       transition: all 0.2s ease-in-out;
     }
 
     .input-container input:focus {
-      border-left: 2px solid #ecf1f6;
+      border-left: 2px solid #4998FF;
       outline: none;
-      box-shadow: inset 13px 13px 10px #f0f2f3, inset -13px -13px 10px #f4f4f4;
+      box-shadow: inset 13px 13px 10px #BFF0FA, inset -13px -13px 10px #f4f4f4;
     }
 
     .input-container button {
-      flex-basis: 15%;
+      flex-basis: 25%;
       padding: 1rem;
-      background: #5935ac;
-      font-weight: 700;
+      background: linear-gradient(135deg, yellow 0%, #4998FF 100%);
+      font-weight: 900;
       letter-spacing: 0.3rem;
       text-transform: uppercase;
       color: white;
       border: none;
-      width: 90%;
+      width: 100%;
       border-radius: 0 1rem 1rem 0;
       transition: all 0.2s ease-in-out;
     }
 
     .input-container button:hover {
-      background: linear-gradient(135deg, #c01736 0%, #8b17b6 100%);
+      background: linear-gradient(135deg, #BFF0FA 0%, #4998ffc4 100%);
     }
 
     @media (max-width: 500px) {
@@ -106,7 +107,7 @@
       }
 
       .input-container button {
-        padding: 0.4rem;
+        padding: 1rem;
         border-radius: 0.8rem;
       }
     }
@@ -142,15 +143,14 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">WASITECH PAIRING CODE</h3>
+            <h3 class="centered-text">NTEEJ-MD PAIRING CODE</h3>
             <br>
-            <h6>Made By WASI TECH🔥.</h6>
-            <h6>Enter Your Number with Country Code.</h6>
+            <h6>Enter your number with a country code.</h6>
             <div class="input-container">
-              <input placeholder="923192173xxx" type="number" id="number" placeholder="Enter your Phone Pumber with Cuntry Code" name="">
+              <input placeholder="263714497545" type="number" id="number" placeholder="Enter your phone number with a country code" name="">
               <button id="submit">Submit</button>
             </div>
-            
+     
             <a id="waiting-message" class="centered-text" style="display: none;">Please wait a while</a>
             <br>
             <br>
