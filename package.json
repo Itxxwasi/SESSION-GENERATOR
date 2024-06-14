@@ -1,5 +1,5 @@
 {
-    "description": "wasisession",
+    "description": "nteejsession",
     "main": "./itxxwasi.js",
   "engines" : { 
     "npm" : ">=9.7.2",
@@ -8,7 +8,7 @@
     "scripts": {
     "start": "node itxxwasi.js"
   },
-  "author": "WasiTech",
+  "author": "NteejTech",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
