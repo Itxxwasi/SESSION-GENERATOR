@@ -57,26 +57,26 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
-*_Made With 🤍_*
+*_Pair Code Connected by NTEEJ TECH*
+*_Made With NTEEJ TECH_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN WASI MD 』*
+║ *『 WOW YOU'VE CHOSEN NTEEJ MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1_
-║❒ *Owner:* _https://wa.me/923192173398_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
+║❍ *Tgram:* _https://t.me/Nteej_
+║❍ *Owner:* _https://wa.me/714497545_
+║❍ *Repo:* _https://github.com/Ntee-j01/NTEEJ-MD_
+║❍ *WaGroup:* _https://chat.whatsapp.com/Er6RNNNVWV5LORN9Nr6hL7_
+║❍ *WaChannel:* _https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I_
+║❍ *Plugins:* _https://github.com/Ntee-j01/NTEEJ-MD-PLUGINS_
 ╚════════════════════════╝
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text: GIFTED_MD_TEXT},{quoted:session})
  
 
         await delay(100);
