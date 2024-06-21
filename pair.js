@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
-               let NTEEJ_MD_TEXT = `
+               let GIFTED_MD_TEXT = `
 *_Pair Code Connected by NTEEJ TECH*
 *_Made With NTEEJ TECH_*
 ______________________________________
@@ -76,7 +76,7 @@ ______________________________________
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text: NTEEJ_MD_TEXT},{quoted:session})
+ await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text: GIFTED_MD_TEXT},{quoted:session})
  
 
         await delay(100);
