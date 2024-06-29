@@ -3,7 +3,7 @@ const app = express();
 __path = process.cwd()
 const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 8000;
-let server = require('./wasiqr'),
+let server = require('./qrr'),
     code = require('./pair');
 require('events').EventEmitter.defaultMaxListeners = 500;
 app.use('/wasiqr', server);
