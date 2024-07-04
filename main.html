@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ2GBVV4SW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FZ2GBVV4SW');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nteej session</title>
+    <meta name="description" content="Nteej: session">
+    <meta name="keywords" content="nteej">
+    <meta name="author" content="Nteej">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #171131;
+        }
+
+        .button-container {
+            margin-bottom: 20px;
+        }
+
+        .glow-on-hover {
+            width: 220px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 26px;
+            font-weight: 600;
+            height: 50px;
+            border: none;
+            outline: none;
+            color: white;
+            background: black;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 10px;
+        }
+
+        .glow-on-hover:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000,#4501fc,#a5ca03,#ca03ae);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 10s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+        }
+
+        .glow-on-hover:active {
+            color: black;
+        }
+
+        .glow-on-hover:active:after {
+            background: transparent;
+        }
+
+        .glow-on-hover:before {
+            opacity: 1;
+        }
+
+        .glow-on-hover:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: black;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+
+        @keyframes glowing {
+            0% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: 400% 0;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        
+    </style>
+</head>
+
+<body>
+  
+  
+
+    <div class="button-container">
+        <button class="glow-on-hover" onclick="window.open(`/pair`)" class="btn">PAIR CODE</button>
+    </div>
+    <br>
+      <div class="button-container">
+        <button class="glow-on-hover" onclick="window.open(`/wasiqr`)" class="btn">QR CODE</button>
+    </div>
+    <br>
+      <div class="button-container">
+        <button class="glow-on-hover" onclick="window.open(`https://github.com/Ntee-j01/NTEEJ-MD`)" class="btn">REPO</button>
+    </div>
+    <br>
+      <div class="button-container">
+        <button class="glow-on-hover" onclick="window.open(`https://wa.me/714497545`)" class="btn">CONTACT ME</button>
+    </div>
+    <br>
+    <div class="button-container">
+        <button class="glow-on-hover"  onclick="window.open(`https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I`)" class="btn">WA CHANNEL</button>
+    </div>
+
+    <link rel="import" href="./loader.html">
+
+</body>
+</html>
