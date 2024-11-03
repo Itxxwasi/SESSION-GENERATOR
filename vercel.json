@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "/itxwasi.js",
+      "src": "itxxwasi.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/itxwasi.js"
+      "dest": "itxxwasi.js"
     }
   ]
 }
