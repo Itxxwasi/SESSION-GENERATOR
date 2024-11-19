@@ -8,8 +8,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "node itxxwasi.js",
-    "postinstall": "npm install && echo 'Package-lock.json generated successfully!'"
+    "start": "node itxxwasi.js"
   },
   "author": "WasiTech",
   "license": "GPL-3.0 license",
