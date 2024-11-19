@@ -1,14 +1,16 @@
 {
-    "description": "wasisession",
-    "main": "./itxxwasi.js",
-  "engines" : { 
-    "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
-    },
-    "scripts": {
-  "start": "node itxxwasi.js",
-  "postinstall": "npm install"
-    },
+  "name": "wasisession",
+  "version": "1.0.0",
+  "description": "wasisession",
+  "main": "./itxxwasi.js",
+  "engines": {
+    "npm": ">=9.7.2",
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node itxxwasi.js",
+    "postinstall": "npm install && echo 'Package-lock.json generated successfully!'"
+  },
   "author": "WasiTech",
   "license": "GPL-3.0 license",
   "dependencies": {
@@ -17,10 +19,10 @@
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
-    "phone" : "3.1.30",
+    "phone": "3.1.30",
     "body-parser": "^1.20.1",
     "pastebin-js": "^1.0.6",
     "express": "^4.18.1",
     "path": "^0.12.7"
-   }
+  }
 }
