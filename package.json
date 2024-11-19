@@ -6,8 +6,9 @@
     "node" : ">=20.0.0"
     },
     "scripts": {
-    "start": "node itxxwasi.js"
-  },
+  "start": "node itxxwasi.js",
+  "postinstall": "npm install"
+    },
   "author": "WasiTech",
   "license": "GPL-3.0 license",
   "dependencies": {
