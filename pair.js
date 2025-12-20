@@ -57,21 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
+*_Pair Code Connected by SHADOW TECH*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN WASI MD 』*
+║ *『 WOW YOU'VE CHOSEN SHADOW XMD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1_
-║❒ *Owner:* _https://wa.me/923192173398_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
+║❒ *Ytube:* _youtube.com/@trouble254_
+║❒ *Owner:* _https://wa.me/25474221553_
+║❒ *Repo:* _https://github.com/trouble254/shadow-XMD
+║❒ *WaGroup:* _https://whatsapp.com/channel/0029VbBM1Kw8kyyFKORNQv1q
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VbBM1Kw8kyyFKORNQv1q
+║❒ *Plugins:* _https://github.com/trouble254/shadow-XMD-PLUGINS_
 ╚════════════════════════╝
 _____________________________________
 
